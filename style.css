@@ -20,7 +20,7 @@ body {
 }
 
 .header-line {
-    padding-top: 30px;
+    padding-top: 0px;
     display: flex;
     align-items: center;
 
@@ -50,7 +50,7 @@ body {
     top: 0;
     right: 0;
     padding-right: 70px;
-    padding-top: 75px;
+    padding-top: 45px;
     text-shadow: #32ce9d84 2px 1px;
 }
 
@@ -64,7 +64,7 @@ body {
     color: blanchedalmond;
     font-weight: 600;
     font-size: 20pt;
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 20px;
     padding-left: 50px;
 }
@@ -157,6 +157,7 @@ body {
 .btn{
     position: absolute;
         left: 50%;
+        top: 50%;
         transform: translate(-50%, -50%); 
 }
 
@@ -165,6 +166,7 @@ body {
         padding-top: 50%;
         position: absolute;
         left: 50%;
+        top:initial;
     }
 }
 
