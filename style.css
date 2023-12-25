@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-image:url(firma3.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+    
+}
+
+@media (max-width: 1100px){
+    .header{
+    background-image:url(firma_mobile.jpeg);
+    background-color: black;
+    }
+}
+
+.header-line {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-logo{
+    padding-left: 50px;
+}
+
+.city-text {
+    color: blanchedalmond;
+    font-weight: 600;
+    font-size: 20pt;
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 70px;
+    padding-top: 75px;
+    text-shadow: #32ce9d84 2px 1px;
+}
+
+.adress{
+    color: blanchedalmond;
+    font-weight: 600;
+    font-size: 20pt;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.adress-text{
+    color: white;
+    font-weight: 500;
+    font-size: 20pt;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+}
+
+.phone{
+    color: blanchedalmond;
+    font-weight: 600;
+    font-size: 20pt;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.phone-text{
+    color: white;
+    font-weight: 500;
+    font-size: 20pt;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+}
+
+.work{
+    color: blanchedalmond;
+    font-weight: 600;
+    font-size: 20pt;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.work-text{
+    color: white;
+    font-weight: 500;
+    font-size: 20pt;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.btn{
+    position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+}
+
+@media (max-width: 1100px) {
+    .btn{
+        padding-top: 30%;
+        position: absolute;
+        left: 50%;
+    }
+}
+
+.button{
+    color: black;
+    background-color: rgb(255, 215, 155);
+    font-size: 30pt;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 20px;
+    transition: background-color 0.35s linear;
+    text-shadow: #32ce9d84 2px 1px;
+}
+
+@media (max-width: 1100px) {
+    .button {
+        font-size: 10pt;
+    border-radius: 50px;
+    }
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
+}
