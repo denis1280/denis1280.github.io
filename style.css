@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    background-image:url(firma3.jpg) ;
+    background-image:url(firma.jpg) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -14,7 +14,7 @@ body {
 
 @media (max-width: 1100px){
     .header{
-    background-image:url(firma_mobile.jpeg);
+    background-image:url(firma_mobile.jpg);
     background-color: black;
     }
 }
@@ -65,7 +65,7 @@ body {
     font-weight: 600;
     font-size: 20pt;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 50px;
 }
 
@@ -73,7 +73,7 @@ body {
     .adress{
         padding-top: 20px;
         padding-left: 25px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
     }
 }
 
@@ -83,7 +83,8 @@ body {
     font-size: 20pt;
     padding-bottom: 20px;
     padding-left: 50px;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
+    text-shadow: #00000084 2px 2px;
 }
 
 @media (max-width: 1100px){
@@ -97,14 +98,14 @@ body {
     color: blanchedalmond;
     font-weight: 600;
     font-size: 20pt;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 50px;
 }
 
 @media (max-width: 1100px){
     .phone{
         padding-left: 25px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
     }
 }
 
@@ -113,7 +114,8 @@ body {
     font-size: 20pt;
     padding-bottom: 20px;
     padding-left: 50px;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
+    text-shadow: #00000084 2px 2px;
 }
 
 @media (max-width: 1100px){
@@ -127,14 +129,14 @@ body {
     color: blanchedalmond;
     font-weight: 600;
     font-size: 20pt;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 50px;
 }
 
 @media (max-width: 1100px){
     .work{
         padding-left: 25px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
     }
 }
 
@@ -144,6 +146,7 @@ body {
     font-size: 20pt;
     padding-bottom: 20px;
     padding-left: 50px;
+    text-shadow: #00000084 2px 2px;
 }
 
 @media (max-width: 1100px){
