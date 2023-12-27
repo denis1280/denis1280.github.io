@@ -186,22 +186,22 @@ body {
     text-shadow: #96c2b4 2px 1px;
     white-space: nowrap;
     animation: wave 2s infinite linear;
-
+    color: white;
 }
 
 
 @keyframes wave {
     0% {
         box-shadow: 
-        0 0 0 rgba(255, 215, 155, 0);
+        0 0 0 rgba(255, 237, 210, 0);
     }
     30% {
         box-shadow: 
-        0 0 0 30px rgba(255, 215, 155, 0.414);
+        0 0 0 30px rgba(255, 237, 210, 0.414);
     }
     100% {
         box-shadow: 
-        0 0 0 60px rgba(255, 215, 155, 0);
+        0 0 0 60px rgba(255, 237, 210, 0);
     }
 }
 
@@ -215,15 +215,15 @@ body {
     @keyframes wave {
         0% {
             box-shadow: 
-            0 0 0 rgba(255, 215, 155, 0);
+            0 0 0 rgba(255, 237, 210, 0);
         }
         30% {
             box-shadow: 
-            0 0 0 20px rgba(255, 215, 155, 0.414);
+            0 0 0 20px rgba(255, 237, 210, 0.414);
         }
         100% {
             box-shadow: 
-            0 0 0 40px rgba(255, 215, 155, 0);
+            0 0 0 40px rgba(255, 237, 210, 0);
         }
     }
 }
