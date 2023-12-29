@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.header {
+.body {
     background-image:url(firma.jpg) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,7 +13,7 @@ body {
 }
 
 @media (max-width: 1100px){
-    .header{
+    .body{
     background-image:url(firma_mobile.jpg);
     background-color: black;
     }
